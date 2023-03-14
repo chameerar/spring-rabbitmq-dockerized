@@ -39,7 +39,6 @@ public class MessagingRabbitmqApplication {
 	public ConnectionFactory connectionFactory(){
 		CachingConnectionFactory cachingConnectionFactory = new CachingConnectionFactory();
 		cachingConnectionFactory.setHost("armadillo.rmq.cloudamqp.com");
-		cachingConnectionFactory.setPassword("yQqUSdCgAXb7REpvIdENPKYxIW4qV5cp");
 		cachingConnectionFactory.setUsername("ndhomvgt");
 		cachingConnectionFactory.setVirtualHost("ndhomvgt");
 		return cachingConnectionFactory;
